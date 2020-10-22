@@ -1,0 +1,41 @@
+// Stora skärmar
+@media screen and (min-width:800px) {
+
+    #sidebar-small,
+    #knowledge-small,
+   #navicon, #menubtn, #menuicon{
+        display: none;
+        visibility: hidden;
+    }
+
+    #container {
+        margin-left: 280px;
+    }
+
+    #headings-know {
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        
+    }
+
+    .project-box {
+        max-width: 360px;
+    }
+
+
+
+
+
+}
+
+
+
+#eduOut,
+#expOut,
+#skiOut {
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+

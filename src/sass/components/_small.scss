@@ -1,0 +1,63 @@
+// Minsta skärmar
+@media screen and (max-width:499px) {
+
+    #sidebar,
+    #knowledge,
+    #socials {
+        display: none;
+        visibility: hidden;
+    }
+
+
+    #container {
+        width: 100%;
+        margin-left: 0;
+        transition: margin-left .3s ease-in-out;
+    }
+
+
+    header {
+        min-width: 200px;
+    }
+
+    main {
+        min-width: 200px;
+    }
+
+    footer {
+        min-width: 200px;
+    }
+
+
+
+    #info-section {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .project-box {
+
+        max-width: 500px;
+
+
+
+
+        .img-box {
+
+
+
+            .projectimg {
+
+
+                max-width: 400px;
+
+
+            }
+        }
+    }
+
+    #headings-know {
+
+        max-width: 200px;
+    }
+}

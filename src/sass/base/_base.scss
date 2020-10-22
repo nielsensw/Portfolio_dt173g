@@ -1,0 +1,86 @@
+// Allmänna regler för fonter och färger
+$font-stack1: "Roboto",
+sans-serif;
+$font-stack2: "Open sans",
+sans-serif;
+// Colors
+$green-light-opacity: #6fb18ab6;
+$green-light: #6FB18B;
+$green-medium: #528f6c;
+$green-dark: #49795D;
+$grey-menu :  #fbfbfb;
+$grey-xtralight: #ececec;
+$grey-light: #585e5b;
+$grey-medium: #333333;
+$grey-dark: #242424;
+
+
+h1 {
+    font-size: 47px;
+    color: $grey-medium;
+}
+
+h2 {
+    font-size: 32px;
+    color: $grey-medium;
+
+}
+
+h3 {
+    font-size: 29px;
+    color: $grey-medium;
+    font-weight: 500;
+
+}
+
+h4 {
+    font-size: 24px;
+    color: $green-medium;
+}
+
+h5 {
+    font-size: 19px;
+    color: $grey-medium;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+h1{
+    font-weight: 400;
+}
+h2 {
+    font-weight: 700;
+}
+
+h4,
+h5 {
+    font-weight: 700;
+}
+
+h6 {
+    font-weight: 500;
+}
+
+a {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 300;
+    font-family: $font-stack2;
+    line-height: 170%;
+    font-size:17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: $font-stack1;
+    line-height: 80%;
+}

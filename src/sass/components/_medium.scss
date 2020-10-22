@@ -1,0 +1,39 @@
+// Mellanstora skärmar
+@media screen and (min-width:500px) and (max-width:799px) {
+
+    #sidebar,
+    #knowledge,
+    #socials {
+        display: none;
+        visibility: hidden;
+    }
+#info-section{
+    max-width:400px;
+}
+    #knowledge-small {
+       
+        padding: 10px;
+    
+        padding-top: 70px;
+    #headings-know-small{
+        display: block;
+        margin:0 auto;
+max-width:400px;
+    }
+        h5 {
+            padding-bottom: 5px;
+            padding-top: 20px;
+        }
+    }
+    .project-box {
+        max-width: 300px;
+    }
+
+    #container {
+        width: 100%;
+        margin-left: 0;
+        transition: margin-left .3s ease-in-out;
+    }
+
+
+}

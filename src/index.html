@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sally Nielsen | Projekt dt173g</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <!-- Ikoner -->
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+            integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
+            crossorigin="anonymous">
+        <!-- Favicon -->
+        <!-- <link rel='icon' href='images/favicon.ico' type='image/x-icon' /> -->
+    </head>
+    <body>
+        <!-- Sidebar med meny desktop -->
+        <div id="sidebar">
+            <div id="portrait">
+                <img alt="image of me" id="portraitimg" src="./images/me1.jpg">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <h6 class="link-hover-2" id="nav-home">Hem<i class="fas
+                                fa-home"></i></h6>
+                    </li>
+                    <li>
+                        <h6 class="link-hover-1" id="nav-info">Info<i class="fas
+                                fa-info"></i></h6>
+                    </li>
+                    <li>
+                        <h6 class="link-hover-1" id="nav-project">Projekt<i
+                                class="fas fa-briefcase"></i></h6>
+                    </li>
+                    <li>
+                        <h6 class="link-hover-1" id="nav-cv">CV<i class="fas
+                                fa-graduation-cap"></i></h6>
+                    </li>
+                    <li>
+                        <a class="link-hover-1" id="nav-contact"
+                            href="mailto:sally.mnielsen@gmail.com">Kontakt<i
+                                class="fas fa-envelope"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+      
+        <!-- Container - Innehåller allt synligt förutom sidebar-->
+        <div id="container">
+            <input id="menubtn" type="checkbox">
+            <label id="menuicon" for="menubtn"><span id="navicon"></span></label>
+              <!-- Sidebar för mindre än 800px -->
+    <div id="sidebar-small">
+        <nav id="small-menu">
+            <ul>
+                <li>
+                    <h6 class="link-hover-2" id="small-nav-home">Hem</h6><i class="fas
+                            fa-home"></i>
+                </li>
+                <li>
+                    <h6 class="link-hover-1" id="small-nav-info">Info</h6><i class="fas
+                            fa-info"></i>
+                </li>
+                <li>
+                    <h6 class="link-hover-1" id="small-nav-project">Projekt</h6><i
+                            class="fas fa-briefcase"></i>
+                </li>
+                <li>
+                    <h6 class="link-hover-1" id="small-nav-cv">CV</h6><i class="fas
+                    fa-graduation-cap"></i>
+                </li>
+                <li>
+                    <a class="link-hover-1" id="small-nav-contact"
+                        href="mailto:sally.mnielsen@gmail.com">Kontakt</a><i
+                            class="fas fa-envelope"></i>
+                </li>
+            </ul>
+        </nav>
+        <div id="socials-small">
+            <ul>
+                <li>
+                    <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="#"><i class="fab fa-github"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+            <header id="header">
+ 
+                <!-- Social-media länkar-->
+                <div id="socials">
+                    <ul>
+                        <li>
+                            <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Presentations text + logotyp-->
+                <div id="presentation">
+                    <div id="logoBox" onmouseover="moveContentDown()">
+                        <img id="logotype" alt="logotype SN"
+                            src="images/logotyp.svg">
+                    </div>
+                </div>
+                <div id="greenblock" onmouseover="moveContentUp()"></div>
+            </header>
+            <main>
+                <!-- Info sektion-->
+                <div id="info-section">
+                    <h1 id="info-head"class="sec-heading">Info</h1>
+                    <p>
+                        Info text about me. Phasellus convallis libero ac
+                        faucibus blandit. Etiam ut mi ipsum. Duis eget tincidunt
+                        sem. In massa enim, posuere ut molestie fringilla,
+                        vehicula nec massa. Maecenas ornare libero et nulla
+                        elementum, ac rhoncus orci viverra. Sed condimentum ante
+                        ut nisi consequat, nec blandit quam elementum. Mauris
+                        sit amet efficitur nisl. Maecenas semper suscipit urna,
+                        eget eleifend nulla posuere quis. Pellentesque vel orci
+                        eu erat feugiat rhoncus. Quisque ut aliquet nibh. Duis
+                        scelerisque nisi eget turpis efficitur bibendum.
+                        Pellentesque volutpat ex id quam scelerisque posuere.
+                        Nunc eget sagittis est. Nunc posuere vehicula turpis,
+                        sit amet tristique dolor fermentum at. Aenean ut
+                        condimentum nisl. Pellentesque aliquet urna sed nunc
+                        semper, vitae maximus urna porta.
+                    </p>
+                </div>
+                <!-- Mina projekt sektion-->
+                <div id="project-section">
+                    <div id="project-head">
+                        <h3 class="sec-heading">Projekt</h3>
+                        <p>Här är projekt som jag har skapat. Klicka på någon
+                            för att läsa mer om denna och få en länk till det
+                            publicerade projektet</p>
+                    </div>
+                    <div id="project-grid">
+                       <!-- Projekt skrivs ut här -->
+                    </div>
+
+                </div>
+                <!-- Utbildning, erfarenhet, kunskap sektion-->
+                <div id="knowledge">
+                    <div id="headings-know">
+                        <h3 id="education">Utbildning</h3>
+                        <h3 id="experience">Erfarenhet</h3>
+                        <h3 id="skills">Kunskap</h3>
+                     
+                    </div>
+                    <div id="know-text">
+                    </div>
+                </div>
+                <div id="knowledge-small">
+                    <div id="headings-know-small">
+                        <h3 id="education-small">Utbildning</h3>
+                        <div id="eduOut" class="kowledge-small"></div>
+                        <h3 id="experience-samll">Erfarenhet</h3>
+                        <div id="expOut" class="kowledge-small"></div>
+                        <h3 id="skills-small">Kunskap</h3>
+                        <div id="skiOut" class="kowledge-small"></div>
+                    </div>
+                   
+                </div>
+            </main>
+            <footer>
+                <p> Sally Nielsen | sally.mnielsen@gmail.com</p>
+            </footer>
+
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+
