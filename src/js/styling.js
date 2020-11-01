@@ -1,5 +1,6 @@
 // Kod av Sally Nielsen
 // Variabler
+var projBox = document.getElementsByClassName('project-box');
 var content = document.getElementsByClassName('text-foldout');
 var projgrid = document.getElementById('project-grid');
 var projImgBox = document.getElementsByClassName('blacknwhite');
@@ -34,7 +35,13 @@ projgrid.addEventListener('click', (e) => {
   // ändrar opacitet och höjd vid klick av projekt-grid
   for (var i = 0; i < projImgBoxColor.length; i++) {
     projImgBoxColor[i].className = 'blacknwhite';
+   
   }
+  // Ändrar höjd på projekt-box
+  for (var i = 0; i < projBox.length; i++) {
+    projBox[i].style.height = '300px';
+  }
+
   for (var i = 0; i < content.length; i++) {
     content[i].style.maxHeight = '0';
     content[i].style.opacity = '0';
@@ -47,7 +54,11 @@ projgrid.addEventListener('click', (e) => {
     var dropOut = e.target.parentNode.nextElementSibling;
     dropOut.style.maxHeight = '500px';
     dropOut.style.opacity = '1';
+    // Ändrar höjd på project-box
+    var dropOutBox = e.target.parentNode.parentNode;
+    dropOutBox.style.height = 'auto';
   }
+ 
 });
 // Ändring position vid klickande
 // Hem position
